@@ -1,0 +1,40 @@
+
+body {
+    font-family: Helvetica;
+}
+
+.card {
+    width: 90px;
+    height: 90px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25pt;
+    color: gray;
+    background-color: lightgray;
+}
+
+.open {
+    background-color: white;
+}
+
+.rows {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.found {
+    visibility: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
